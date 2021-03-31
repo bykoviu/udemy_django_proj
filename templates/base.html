@@ -7,8 +7,8 @@
 	<h1>Vice Versa</h1>
 
 	<div>
-		<form>
-			<textarea maxlength="150" cols="70" rows="10"></textarea><br>
+		<form action="{% url 'reverse' %}">
+			<textarea maxlength="150" cols="70" rows="10" name="usertext"></textarea><br>
 			<input type="submit" value="Reverse!">
 		</form>
 	</div>
